@@ -10,7 +10,7 @@ const app = express();
 app.disable("x-powered-by");
 
 app.get("/sum", CalculatorController.sum);
-app.get("/multiply", CalculatorController.sum);
+app.get("/multiply", CalculatorController.multiply);
 // we can add more routes here.
 
 // we are exposing one function that is api
